@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // host: 'https://swapi.dev/api/',
+  host: 'https://jsonplaceholder.typicode.com/',
+  unreachableHost: 'https://unreachableHost/api/',
 };
 
 /*
